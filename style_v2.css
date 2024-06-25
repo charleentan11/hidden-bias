@@ -14,35 +14,47 @@ limitations under the License.
 ==============================================================================*/
 
 
-
+/* TODO: Delete most of this */
 
 html{
-	background-color: #fff;
-	font-weight: normal;
+  background-color: #fff;
+  font-weight: normal;
   font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: 300;
-	line-height: 1.55em;
-	font-size: 16px;
+  line-height: 1.55em;
+  font-size: 16px;
 }
 
 
 body{
-	max-width: 850px;
-	margin: 0px auto;
-	margin-top: 5px;
-	margin-bottom: 80px;
+  max-width: 850px;
+  margin: 0px auto;
+  margin-top: 5px;
+  margin-bottom: 80px;
   color: #3C4043;
   font-smoothing: antialiased;
 }
 
 @media (max-width: 760px){
-	body{
-		padding: 5px;
-	}
+  body{
+    padding: 5px;
+  }
+}
+
+.byline{
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.3em;
+  margin-bottom: 40px;
+  margin-top: -20px;
+
+}
+.byline b{
+  font-weight: 400;
 }
 
 p{
-	line-height: 1.55em;
+  line-height: 1.55em;
   font-size: 16px;
   /*line-height: 28px;*/
   color: #3C4043;
@@ -50,7 +62,7 @@ p{
 }
 
 a{
-	color: black;
+  color: black;
 }
 
 .header{
@@ -112,11 +124,11 @@ a{
   }
 }
 .header a{
-	/*opacity: .5;*/
-	text-decoration: none;
+  /*opacity: .5;*/
+  text-decoration: none;
 }
 .header a:hover{
-	opacity: 1
+  opacity: 1
 }
 
 
@@ -129,7 +141,7 @@ p{
 
 /*TODO mobile padding?*/
 
-h3{
+h3, h4{
   max-width: 750px;
   margin: 0px auto;
   font-weight: 100;
@@ -137,15 +149,15 @@ h3{
 }
 
 h1,h2,h3,h4,h5{
-	font-family: 'Google Sans', sans-serif;
+  font-family: 'Google Sans', sans-serif;
   font-weight: 100;
-	margin-top: 1.5em;
-	margin-bottom: .5em;
+  margin-top: 1.5em;
+  margin-bottom: .5em;
 }
 h1{
-	font-weight: 100;
-	font-size: 34px;
-	margin-bottom: .5em;
+  font-weight: 100;
+  font-size: 34px;
+  margin-bottom: .5em;
   line-height: 1.3em;
   margin-top: 1.4em;
   text-align: center;
@@ -153,7 +165,7 @@ h1{
   /*color: #00695C;*/
 }
 h2,h3,h4,h5{
-	font-size: 22px;
+  font-size: 22px;
 }
 
 /*wp classes*/
